@@ -78,7 +78,6 @@ public class ListController {
         ArrayList<Job> jobs = jobData.findAll();
 
         model.addAttribute("title", "All Jobs");
-        model.addAttribute("jobs", jobs);
 
         return "list-jobs";
     }
